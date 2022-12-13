@@ -8,17 +8,15 @@
     width: 50%;
     margin: 30vh auto;
     display: flex;
-   
+
 }
 
 .items {
-    /* background-color: blueviolet; */
     height: 300px;
     width: 80%;
 }
 
 .item {
-    /* background-color: crimson; */
     height: 100%;
     display: none;
     position: relative;
@@ -26,7 +24,6 @@
 }
 
 .thumbs {
-    /* background-color: coral; */
     height: 300px;
     width: 20%;
     position: relative;
@@ -35,7 +32,6 @@
 
 
 .thumb { 
-    /* background-color: darkcyan; */
     height: 20%;
     opacity: 0.5;
 } 
@@ -78,7 +74,6 @@ img {
     position: relative;
     right: 85px;
     margin: 5px 0;
-   
 }
 
 .btn-prev, .btn-next {
