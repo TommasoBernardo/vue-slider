@@ -1,11 +1,9 @@
-
-let carousel =  Vue ( {
-
+// instanzio vue
+let carousel = new Vue ( {
     el : "#app",
     data : {
         activeSlide: 0,
         
-
         slides : [
             {
                 image: 'img/01.webp',
@@ -35,7 +33,6 @@ let carousel =  Vue ( {
         ]
     }, 
     
-
     methods : {
         nextSlide: function() {
             if (this.activeSlide === this.slides.length - 1) {
